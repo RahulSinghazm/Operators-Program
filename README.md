@@ -23,18 +23,13 @@ Operator  Meaning                                                           Exam
 </pre>
 <pre>
 +         Add two operands or unary plus	x + y                             +2
-
 -	        Subtract right operand from the left or unary min x - y           -2
-
-*         Multiply two operands                                              x * y
-                        
+*         Multiply two operands                                              x * y                        
 /	        Divide left operand by the right one (always results into float)   x / y
-
 %	        Modulus - remainder of the division of left operand by the right   x % y
-                                                                               (remainder of x/y)
+                                                                             (remainder of x/y)
 //        Floor division - division that results into whole number adjusted  x // y
-            to the left in the number line
-            
+          to the left in the number line           
 **	      Exponent - left operand raised to the power of right	              x**y (x to the power y)
 </pre>
 
