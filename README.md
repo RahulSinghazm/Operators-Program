@@ -1,8 +1,8 @@
 # Operators
 
 ## What are operators in python?
-Operators are special symbols in Python that carry out arithmetic or logical computation. The value that 
-the operator operates on is called the operand.
+Operators are special symbols in Python that carry out arithmetic or logical computation. 
+The value that the operator operates on is called the operand.
 
 ### For example:
 <pre>
@@ -10,10 +10,12 @@ the operator operates on is called the operand.
 5
 </pre>
 
-Here, + is the operator that performs addition. 2 and 3 are the operands and 5 is the output of the operation.
+Here, + is the operator that performs addition. 2 and 3 are the operands and 5
+is the output of the operation.
 
 ## Arithmetic operators:
-Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication etc.
+Arithmetic operators are used to perform mathematical operations like addition, 
+subtraction, multiplication etc.
 
 <center>## Arithmetic operators in Python:</center>
 <pre>
@@ -21,13 +23,13 @@ Operator        	Meaning                                                        
 </pre><pre>
 +                 Add two operands or unary plus	x + y                                      +2
 
--	                Subtract right operand from the left or unary minus	x - y                  -2
+-	              Subtract right operand from the left or unary minus	x - y                  -2
 
 *                 Multiply two operands                                                      x * y
     
-/	                Divide left operand by the right one (always results into float)	         x / y
+/	              Divide left operand by the right one (always results into float)	         x / y
 
-%	                Modulus - remainder of the division of left operand by the right	         x % y 
+%	              Modulus - remainder of the division of left operand by the right	         x % y 
                                                                                              (remainder of x/y)
                                                                                              
 //	              Floor division - division that results into whole number adjusted          x // y
@@ -61,7 +63,7 @@ print('x ** y =',x**y)
 </pre>
 
 ### Output:
-#### When you run the program, the output will be:
+* When you run the program, the output will be:
 <pre>
 x + y = 19
 x - y = 11
@@ -72,20 +74,21 @@ x ** y = 50625
 </pre>
 
 ## Comparison operators:
-Comparison operators are used to compare values. It either returns True or False according to the condition.
+Comparison operators are used to compare values. It either returns True or False according 
+to the condition.
 
 <center>## Comparision operators in Python:</center>
 <pre>
-Operator	 Meaning	                                                               Example
+Operator  Meaning	                                                               Example
 </pre>
 <pre>
->	         Greater that - True if left operand is greater than the right	         x > y
+>	       Greater that - True if left operand is greater than the right	       x > y
 
-<	         Less that - True if left operand is less than the right	               x < y
+<	       Less that - True if left operand is less than the right	               x < y
 
-==	       Equal to - True if both operands are equal	                             x == y
+==	       Equal to - True if both operands are equal	                           x == y
 
-!=	       Not equal to - True if operands are not equal	                         x != y
+!=	       Not equal to - True if operands are not equal	                       x != y
 
 >=	       Greater than or equal to - True if left operand is greater than         x >= y
            or equal to the right	
@@ -135,7 +138,7 @@ Logical operators are the and, or, not operators.
 <center>### Logical operators in Python</center>
 
 <pre>
-Operator	  Meaning	                                           Example
+Operator	Meaning	                                            Example
 </pre>
 <pre>
 and	        True if both the operands are true	                x and y
@@ -170,7 +173,8 @@ not x is False
 
 ## Bitwise operators:
 
-Bitwise operators act on operands as if they were string of binary digits. It operates bit by bit, hence the name.
+Bitwise operators act on operands as if they were string of binary digits.
+It operates bit by bit, hence the name.
 
 For example, 2 is 10 in binary and 7 is 111.
 
@@ -190,9 +194,9 @@ Operator	  Meaning	                Example
 
 ^	          Bitwise XOR	            x ^ y = 14 (0000 1110)
 
->>	        Bitwise right shift	    x>> 2 = 2 (0000 0010)
+>>	          Bitwise right shift	    x>> 2 = 2 (0000 0010)
 
-<<	        Bitwise left shift	    x<< 2 = 40 (0010 1000)
+<<	          Bitwise left shift	    x<< 2 = 40 (0010 1000)
 </pre>
 
 ## Assignment operators:
@@ -209,7 +213,7 @@ It is equivalent to a = a + 5.
 Operator	      Example	                Equivatent to
 </pre>
 <pre>
-=	              x = 5	                  x = 5
+=	            x = 5	                x = 5
 
 +=	            x += 5	                x = x + 5
 
@@ -248,7 +252,7 @@ located on the same part of the memory. Two variables that are equal does not im
 <center>###Identity operators in Python</center>
 
 <pre>
-Operator	    Meaning	                                                                    Example
+Operator	  Meaning	                                                                 Example
 </pre>
 <pre>
 is	          True if the operands are identical (refer to the same object)	              x is True
