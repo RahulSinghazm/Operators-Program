@@ -194,6 +194,30 @@ Operator	  Meaning	                Example
 <<	          Bitwise left shift	    x<< 2 = 40 (0010 1000)
 </pre>
 
+### Example:
+<pre>
+a=10
+b=4
+print('Bitwise AND(&) operator:',a&b)
+print('Bitwise OR(|) operator:',a|b)
+print('Bitwise XOR(^) operator:',a^b)
+print('Bitwise NOT(~) operator:',~a)
+print('Bitwise RightShift(>>) operator:',a>>b)
+print('Bitwise LeftShift(<<) operator:',a<<b)
+
+</pre>
+
+### Output:
+
+<pre>
+Bitwise AND(&) operator: 0
+Bitwise OR(|) operator: 14
+Bitwise XOR(^) operator: 14
+Bitwise NOT(~) operator: -11
+Bitwise RightShift(>>) operator: 0
+Bitwise LeftShift(<<) operator: 160
+</pre>
+
 ## Assignment operators:
 Assignment operators are used in Python to assign values to variables.
 
@@ -235,6 +259,45 @@ Operator	      Example	                Equivatent to
 <<=	            x <<= 5	                x = x << 5
 </pre>
 
+### Example:
+<pre>
+a = 21
+b = 10
+c = 0
+
+c = a + b
+print("Line 1 - Value of c is ", c)
+
+c += a
+print("Line 2 - Value of c is ", c) 
+
+c *= a
+print("Line 3 - Value of c is ", c)
+
+c /= a 
+print("Line 4 - Value of c is ", c)
+
+c  = 2
+c %= a
+print("Line 5 - Value of c is ", c)
+
+c **= a
+print("Line 6 - Value of c is ", c)
+
+c //= a
+print("Line 7 - Value of c is ", c)
+
+</pre>
+### Output:
+<pre>
+Line 1 - Value of c is  31
+Line 2 - Value of c is  52
+Line 3 - Value of c is  1092
+Line 4 - Value of c is  52.0
+Line 5 - Value of c is  2
+Line 6 - Value of c is  2097152
+Line 7 - Value of c is  99864
+</pre>
 
 ## Special operators:
 Python language offers some special type of operators like the identity operator or the membership operator. 
